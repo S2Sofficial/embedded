@@ -1,0 +1,40 @@
+# _config.yml
+title: "Embedded Projects"
+email: swaroop.k.yadav@gmail.com
+description: "Embedded Projects by Swaroop2sky"
+baseurl: "/embedded"  # Your site lives at https://s2sofficial.github.io/embedded
+url: "https://s2sofficial.github.io"
+markdown: kramdown  # REQUIRED by GitHub Pages
+
+# Minimal Mistakes Theme (GitHub-hosted version)
+remote_theme: "mmistakes/minimal-mistakes@latest"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Site Author (Required by Minimal Mistakes)
+author:
+  name: "Swaroop Yadav"
+  bio: "Embedded Systems Developer"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/s2sofficial"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/swaroop2sky"
+
+# Navigation (Works with /embedded baseurl)
+main:
+  - title: "ESP8266"
+    url: /embedded/ESP8266/  # Note the /embedded prefix!
+  - title: "Arduino"
+    url: /embedded/arduino/
+  - title: "MSP430"
+    url: /embedded/MSP430/
+
+# Optional: Uncomment if needed
+# minimal_mistakes_skin: "default"
+# repository: "s2sofficial/s2sofficial.github.io"
